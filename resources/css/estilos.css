@@ -1,0 +1,19 @@
+/* estilos.css */
+
+/* Estilo para la tabla */
+table {
+    position: relative;
+    height: 300px; /* Ajusta el alto de la tabla según lo necesites */
+    overflow-y: scroll;
+    width: 100%; /* Asegura que la tabla ocupe todo el ancho posible */
+}
+
+/* Estilo para el botón "Restaurar" */
+button.btn-success {
+    position: sticky;
+    bottom: 0; /* Pegado al fondo de la tabla */
+    background-color: green;
+    color: white; /* Cambia el color del texto si es necesario */
+    z-index: 1; /* Asegura que el botón esté por encima de otros elementos */
+    padding: 5px 10px; /* Ajusta el tamaño del botón si es necesario */
+}
